@@ -1,5 +1,17 @@
 # Change Log
 
+## 2.6.5
+
+### Patch Changes
+
+- c99627d: `useEditorState` now defaults to using a deep equal comparison for it's `equalityFn` option, which makes it more convenient to use
+- 4ff2a4e: ReactNodeViewRenderer now accepts a callback for attrs of the wrapping element to be updated on each node view update
+- Updated dependencies [bd34793]
+  - @tiptap/pm@2.6.5
+  - @tiptap/core@2.6.5
+  - @tiptap/extension-bubble-menu@2.6.5
+  - @tiptap/extension-floating-menu@2.6.5
+
 ## 2.6.4
 
 ### Patch Changes
